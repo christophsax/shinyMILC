@@ -1,0 +1,13 @@
+Package: shinyMILC
+Type: Package
+Title: Shiny User Interface to the MILC package
+Version: 0.0.1
+Date: 2016-03-10
+Author: Stavroula A. Chrysanthopoulou and Christoph Sax
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+Depends:
+    shiny (>= 0.13.0),
+    MILC
+License: GPL3
+RoxygenNote: 5.0.1
