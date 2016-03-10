@@ -12,7 +12,7 @@ library(survival)
 
 
 # simulation function
-sim_nat_hist <- function(age, smkint, pred_yrs, gender, status, ts, n = 50){
+sim_nat_hist <- function(age, smkint, pred_yrs, gender, status, ts, tq, n = 50){
   # model parametrization
   m        <- 0.00042 
   cdiagn   <- c(3.91, 3.91)

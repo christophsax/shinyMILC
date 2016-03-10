@@ -10,10 +10,10 @@ shinyServer(function(input, output) {
     gender = input$gender
     status = input$status
     ts = input$tsqs[1]
-    qs = input$tsqs[2]
+    tq = input$tsqs[2]
     n = input$n
     
-    z <- sim_nat_hist(age = age, smkint = smkint, pred_yrs = pred_yrs, gender = gender, status = status, ts = ts, n = n)
+    z <- sim_nat_hist(age = age, smkint = smkint, pred_yrs = pred_yrs, gender = gender, status = status, ts = ts, tq = tq, n = n)
     z
   })
   
