@@ -8,7 +8,6 @@ Install from Github:
 
 ```
 devtools::install_github("christophsax/shinyMILC")
-
 ```
 
 and run the App:
@@ -16,7 +15,6 @@ and run the App:
 ```
 library(shinyMILC)
 shinyMILC()
-
 ```
 
 
