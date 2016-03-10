@@ -1,8 +1,10 @@
 shinyMILC: A Graphical User Interface to MILC
 ---------------------------------------------
 
+**Not usable in it's current state.**
+
 A very basic and experimental user interface to the MILC package by Stavroula
-Chrysanthopoulou. **not usable in it's current state.**
+Chrysanthopoulou. 
 
 Install from Github:
 
